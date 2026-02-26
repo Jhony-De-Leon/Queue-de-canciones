@@ -28,7 +28,7 @@ Luego puede ser utilizado como dependencia en otros proyectos.
 
 ---
 
-# ⚙ 3. Cómo compilar el handler "MusicPlayer"
+# 3. Cómo compilar el handler "MusicPlayer"
 
 Ubicarse en la carpeta raíz del proyecto principal y ejecutar: mvn clean package
 
@@ -40,7 +40,7 @@ target/queueHandler-1.0-SNAPSHOT
 
 ---
 
-# ▶ 4. Cómo ejecutar desde consola
+# 4. Cómo ejecutar desde consola
 
 Desde la carpeta `target` ejecutar:
 
@@ -54,7 +54,7 @@ Escribir: "s" y presionar ENTER.
 
 ---
 
-# 🏗 Explicación del diseño
+# Explicación del diseño
 
 El sistema fue diseñado siguiendo los siguientes principios:
 
