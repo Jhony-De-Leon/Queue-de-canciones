@@ -28,7 +28,7 @@ Luego puede ser utilizado como dependencia en otros proyectos.
 
 ---
 
-# ⚙ 3. Cómo compilar el handler "MusicPlayer"
+# 3. Cómo compilar el handler "MusicPlayer"
 
 Ubicarse en la carpeta raíz del proyecto principal y ejecutar: mvn clean package
 
@@ -40,21 +40,19 @@ target/queueHandler-1.0-SNAPSHOT
 
 ---
 
-# ▶ 4. Cómo ejecutar desde consola
+# 4. Cómo ejecutar desde consola
 
-Desde la carpeta `target` ejecutar:
+Desde la carpeta raíz del proyecto queueHandler ejecutar: 
 
-java -cp "queueHandler-1.0-SNAPSHOT.jar;data-structure-queue-1.0-SNAPSHOT.jar" umg.edu.gt.MusicPlayer
+mvn clean compile exec:java
 
-El sistema iniciará la simulación del reproductor.
-
-Para saltar una canción durante reproducción:
+Para saltar una canción durante la reproducción: 
 
 Escribir: "s" y presionar ENTER.
 
 ---
 
-# 🏗 Explicación del diseño
+# 5. Explicación del diseño
 
 El sistema fue diseñado siguiendo los siguientes principios:
 
@@ -76,7 +74,7 @@ Además se creó:
 
 ---
 
-# Decisiones técnicas
+# 6. Decisiones técnicas
 
 1. Se utilizó una estructura `LinkedQueue` para cumplir el principio FIFO.
 2. No se utilizó ordenamiento para respetar el modelo de colas.
@@ -86,7 +84,7 @@ Además se creó:
 
 ---
 
-# Cómo se implementó la prioridad
+# 7. Cómo se implementó la prioridad
 
 Se manejaron dos colas independientes:
 
@@ -107,7 +105,7 @@ Esto garantiza prioridad sin necesidad de ordenamiento.
 
 ---
 
-# Cómo se manejó la simulación de duración
+# 8. Cómo se manejó la simulación de duración
 
 La duración se simula usando:
 
