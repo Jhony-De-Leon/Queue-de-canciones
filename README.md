@@ -52,6 +52,7 @@ Escribir: "s" y presionar ENTER.
 
 ---
 
+
 # 5. Explicación del diseño
 
 El sistema fue diseñado siguiendo los siguientes principios:
